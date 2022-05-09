@@ -1,7 +1,6 @@
 '''List existing buckets'''
 
 import boto3
-from boto3 import Session
 
 boto_sess = Session(profile_name = 'your-profile',region_name='your region')
 
